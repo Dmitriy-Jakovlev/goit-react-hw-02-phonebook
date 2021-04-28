@@ -2,6 +2,7 @@ import { Component } from 'react';
 import ContactForm from './ContactForm';
 import ContactsList from './ContactsList';
 import Filter from './Filter';
+import styles from './App.module.css'
 
 export default class App extends Component {
   state = {
